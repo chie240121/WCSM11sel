@@ -20,10 +20,9 @@ public class Test0 {
 	   
 		Actions a=new Actions(driver);
 		a.moveToElement(ele).perform();
-		
-		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[text()='Apple']")).click();
-	    
+		System.out.println("APPLE");
+	    driver.quit();
 	
 	}
 
