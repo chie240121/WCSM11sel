@@ -23,7 +23,7 @@ public class Test0 {
 		
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[text()='Apple']")).click();
-	    
+	    System.out.println("MANGO");
 	
 	}
 
