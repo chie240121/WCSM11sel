@@ -1,9 +1,11 @@
 package actions;
 
-public class Test05 {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		System.out.println("this is final push frm ws--2");
+public class Test05 {
+@Test
+public void create_Fruits() {
+	System.out.println("BANANA");
 	}
 
 }
